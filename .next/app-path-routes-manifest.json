@@ -1,0 +1,13 @@
+{
+  "/api/products/route": "/api/products",
+  "/api/products/[id]/route": "/api/products/[id]",
+  "/api/hello/route": "/api/hello",
+  "/api/users/[id]/cart/route": "/api/users/[id]/cart",
+  "/favicon.ico/route": "/favicon.ico",
+  "/checkout/page": "/checkout",
+  "/page": "/",
+  "/_not-found/page": "/_not-found",
+  "/cart/page": "/cart",
+  "/products/[id]/page": "/products/[id]",
+  "/products/page": "/products"
+}
