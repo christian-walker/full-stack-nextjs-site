@@ -17,8 +17,10 @@ export default async function ProductListPage() {
 
   return (
     <>
-      <h1>Product Lising Page</h1>
-      <ProductsList products={products} initialCartProducts={cartProducts} />
+      <div className="container mx-auto p-8"> 
+        <h1 className="text-4xl font-bold mb-8">Products</h1> 
+        <ProductsList products={products} initialCartProducts={cartProducts} />
+      </div>
     </>
   );
 }
